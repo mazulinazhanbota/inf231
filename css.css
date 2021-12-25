@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	background-color: black;
+	background-size:cover ;
+	background-repeat: no-repeat;
+	background-position: absolute;
+	color: #fff;
+}
+h3{
+	color: white;
+}
+.container-wide{
+	width: 1790px;
+	padding: 0 15px ;
+	display: flex;
+}
+.nav{
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+a:visited{
+	color: hsla(119, 100%, 33%, 1);
+}
+.nav-item{
+	text-decoration: none;
+}
+.num{
+	padding-left: 90%;
+	color: #fff;
+}
+.text{	
+  background-color: #3000a8;
+  color: #fff;
+  border: 15px solid green;
+  border-color: rgba(255, 224, 122, 0.89);
+  padding: 4%;
+  margin: 40px;
+  margin-left: 10%;
+	width: 80%;
+	height: 1%;
+        border-bottom-right-radius: 90%;
+        border-top-left-radius: 90%;
+        border-bottom-left-radius: 90%;
+        border-top-right-radius: 90%;
+}
+#mm{
+	color: rgb(255, 255, 255);
+	padding-left: 15%;
+}
+#carousel{
+	margin-top: 2%;
+	margin-bottom: 5%;
+	width:80%;
+	height: 40%;
+}
+
+.recommend{
+	display: flex;
+	color: hsl(360, 100%, 100%);
+	padding-left: 1%;	
+}
+.box{
+	margin: 1%;
+}
+.recommend #b {
+	color: black;
+}
